@@ -5,7 +5,9 @@ const urlsToCache = [
   '/js/script.js', 
   '/css/index.css',
   '/css/styles.css', 
-  '/manifest.json'
+  '/manifest.json',
+  '/icons/calories.png', 
+  '/icons/cropped.jpg'
 ];
 
 // Instalando o Service Worker e armazenando em cache
