@@ -12,13 +12,13 @@ body{
 }
 
 dt{
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     font-family: "Mulish", sans-serif;
 }
 
 dd{
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Mulish", sans-serif;
 }
 
@@ -42,8 +42,11 @@ dd{
     text-align: center;
 }
 
-.imagem .ativo{
-    padding: 20px;
-    margin: auto;
-    border-radius: 8px;
+
+#img-api{
+height: 300px;
+width: 300px;
+border: 0px solid #ffffff;
+padding: 10px;
+margin: 0 auto;
 }
