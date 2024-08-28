@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Buscador-calorias",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "buscador-calorias",
+  "start_url": "https://buscador-de-calorias.vercel.app/",
+  "theme_color": "#4bc76c",
+  "icons": [
+    {
+      "src": "img/calories.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "img/cropped.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "description": "Buscador de calorias é um app que leva informação ao usuário e o ajuda a se manter saudavel",
+  "lang": "pt"
+}
