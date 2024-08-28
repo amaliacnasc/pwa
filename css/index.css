@@ -44,9 +44,41 @@ dd{
 
 
 #img-api{
-height: 300px;
-width: 300px;
+max-width: 400px;
+max-height: 300px;
 border: 0px solid #ffffff;
 padding: 10px;
 margin: 0 auto;
+}
+
+
+/* Media query para telas pequenas (smartphones) */
+@media (max-width: 480px) {
+ 
+#img-api{
+    display: block; 
+    margin: 20px auto; 
+    height: 300px;
+    width: 300px;
+    border: 0;
+    padding: 10px;
+    }
+
+    .fonte{
+        font-size: 14px;
+        font-family: "Mulish", sans-serif;
+        text-align: center;
+    }
+
+    dt{
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: "Mulish", sans-serif;
+    }
+    
+    dd{
+        font-size: 12px;
+        font-family: "Mulish", sans-serif;
+    }
+    
 }
