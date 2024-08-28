@@ -12,13 +12,13 @@ body{
 }
 
 dt{
-    font-size: 24px;
+    font-size: 20px;
     text-transform: uppercase;
     font-family: "Mulish", sans-serif;
 }
 
 dd{
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Mulish", sans-serif;
 }
 
@@ -37,7 +37,7 @@ dd{
     background-color: #4bc76c;
 }
 .fonte{
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Mulish", sans-serif;
     text-align: center;
 }
