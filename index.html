@@ -6,11 +6,13 @@
     <link rel="stylesheet " href="/css/styles.css">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="img/calories.png">
-    <meta name="theme-color" content="#17aa3f;">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#17aa3f">
     <title>Buscador de Calorias</title>
 </head>
 <body>
@@ -50,13 +52,16 @@
     <script>
       if ('serviceWorker' in navigator) {
           window.addEventListener('load', function() {
-              navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
-                  console.log('ServiceWorker registration successful with scope: ', registration.scope);
-              }, function(error) {
-                  console.log('ServiceWorker registration failed: ', error);
-              });
+              navigator.serviceWorker.register('/service-worker.js')
+                  .then(function(registration) {
+                      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                  })
+                  .catch(function(error) {
+                      console.log('ServiceWorker registration failed: ', error);
+                  });
           });
       }
+  </script>
   </script>    
 </body>
 </html>
